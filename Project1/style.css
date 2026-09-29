@@ -1,0 +1,40 @@
+/* This one CSS file is used by all eight pages. */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 { margin-bottom: 15px; }
+
+nav a {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 12px;
+    margin: 0 5px 8px 0;
+    text-decoration: none;
+}
+
+nav a:hover, nav a[aria-current="page"] { text-decoration: underline; }
+
+a { color: white; }
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 15px;
+}
+
+table { border-collapse: collapse; margin: 20px 0; }
+th, td { border: 1px solid white; padding: 8px; text-align: left; }
+footer { border-top: 1px solid white; }
